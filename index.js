@@ -58,7 +58,7 @@ pngDownload.addEventListener('click', function(){
 let githubRepo = 'enr-articulo-mayores-censos-grafico5'; //Cambiar el nombre del repositorio por el que se cree
 //Iframe fijo
 let id1 = document.getElementById('iframe-fixed');
-id1.innerHTML = '<iframe src="https://EnvejecimientoEnRed/' + githubRepo + '/" style="height:720px;width:100%;" title="Gráfico Envejecimiento en Red"></iframe>';
+id1.innerHTML = '<iframe src="https://envejecimientoenred.github.io/' + githubRepo + '/" style="height:720px;width:100%;" title="Gráfico Envejecimiento en Red"></iframe>';
 
 //Iframe responsive
 let id2 = document.getElementById('iframe-responsive');
